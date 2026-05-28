@@ -75,10 +75,14 @@ h1 {
 
 /*img*/
 .shefur-img-container img {
-  width: 50%;
+  width: 55%;
   display: inline-block;
   border-radius: 10px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.shefur-img-container img[src*=SheFurC8]{
+  width: 95%;
 }
 
 /*hover of img*/
