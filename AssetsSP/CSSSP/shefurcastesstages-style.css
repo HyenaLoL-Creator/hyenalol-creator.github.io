@@ -85,6 +85,14 @@ h1 {
   width: 95%;
 }
 
+.shefur-img-container img[src*=SheFurC3]{
+  width: 48%;
+}
+
+.shefur-img-container img[src*=SheFurC10]{
+  width: 66%;
+}
+
 /*hover of img*/
 .shefur-img-container img:hover {
   transform: scale(1.02);

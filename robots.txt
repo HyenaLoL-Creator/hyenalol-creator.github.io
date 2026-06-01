@@ -1,0 +1,14 @@
+
+User-agent: *
+Allow: /
+Disallow: /shefursocialhives.html
+Disallow: /shefurweaponrystuff.html
+Disallow: /sheworldhidiebreakess.html
+Disallow: /sheworldhistory.html
+Disallow: /sheworldmain.html
+Disallow: /sheworldnowicy.html
+Disallow: /sheworldourpredatorie.html
+Disallow: /sheworldslurrie.html
+Disallow: /sheworldweaviecaress.html
+Disallow: /sheworldzestiescaldsy.html
+Sitemap: https://hyenalol-creator.github.io/sitemap.xml
