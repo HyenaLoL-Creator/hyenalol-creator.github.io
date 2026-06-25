@@ -1,5 +1,5 @@
 
-console.log("SheWorldOurPredatorie page loaded");
+console.log("SheWorld Our Predatorie page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

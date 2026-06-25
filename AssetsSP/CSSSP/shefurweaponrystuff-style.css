@@ -58,7 +58,7 @@ h1 {
 
 /*a of container*/
 .container a {
-  color: #9fd3ff;
+  color: #ffa44f;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ small {
   padding: 16px;
   border-radius: 10px;
   margin-bottom: 24px;
-  border-left: 4px solid #4aa3ff;
+  border-left: 4px solid #ffa44f;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
@@ -102,7 +102,7 @@ nav {
 /*a of navigation*/
 nav a {
   margin: 0 12px;
-  color: #9fd3ff;
+  color: #ffa44f;
   font-weight: bold;
 }
 
@@ -113,8 +113,8 @@ nav a {
   padding: 10px 14px;
   font-size: 20px;
   background: #1a1d25;
-  color: #9fd3ff;
-  border: 1px solid #4aa3ff;
+  color: #ffa44f;
+  border: 1px solid #ffa44f;
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -135,7 +135,7 @@ nav a {
 
 /*:hover of scroll button*/
 .scroll-btn:hover {
-  background: #4aa3ff;
+  background: #ffa44f;
   color: #0a0b0f;
 }
 

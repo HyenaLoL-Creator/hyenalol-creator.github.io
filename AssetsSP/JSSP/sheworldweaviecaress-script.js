@@ -1,5 +1,5 @@
 
-console.log("SheWorldWeavieCaress page loaded");
+console.log("SheWorld Weavie Caress page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

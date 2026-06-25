@@ -1,5 +1,5 @@
 
-console.log("SheWorldSlurrie page loaded");
+console.log("SheWorld Slurrie page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

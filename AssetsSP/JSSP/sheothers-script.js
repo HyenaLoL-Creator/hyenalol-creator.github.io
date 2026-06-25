@@ -1,5 +1,5 @@
 
-console.log("SheFur Social Hives page loaded");
+console.log("SheOthers page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

@@ -1,5 +1,5 @@
 
-console.log("SheFurWeaponryStuff page loaded");
+console.log("SheFur Weaponry Stuff page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

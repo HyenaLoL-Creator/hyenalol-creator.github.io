@@ -1,5 +1,5 @@
 
-console.log("SheWorldZestieScaldsy page loaded");
+console.log("SheWorld Zestie Scaldsy page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

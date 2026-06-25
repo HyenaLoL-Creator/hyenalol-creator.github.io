@@ -1,5 +1,5 @@
 
-console.log("SheWorldNowicy page loaded");
+console.log("SheWorld Nowicy page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

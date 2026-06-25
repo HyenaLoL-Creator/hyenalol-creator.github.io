@@ -1,5 +1,5 @@
 
-console.log("SheFurCastesStages page loaded");
+console.log("SheFur Castes Stages page loaded");
 
 /*scroll buttons*/
 const scrollDown = document.getElementById("scrollDown");

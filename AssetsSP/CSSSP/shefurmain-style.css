@@ -67,6 +67,17 @@ h1 {
   text-decoration: underline;
 }
 
+/*shefurico-img container*/
+.shefurico-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
 /*small text font*/
 small {
   color: #9aa0a6;
@@ -93,17 +104,6 @@ nav a {
   margin: 0 12px;
   color: #ffa44f;
   font-weight: bold;
-}
-
-/*shefurico-img container*/
-.shefurico-img-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-left: 40px;
 }
 
 /*scroll button*/
@@ -140,7 +140,7 @@ nav a {
 }
 
 /*footer rights*/
-.sheworldourpredatorie-footer-rights {
+.shefurmain-footer-rights {
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
@@ -172,7 +172,7 @@ nav a {
     padding: 28px;
   }
 
-  .sheworldourpredatorie-footer-rights {
+  .shefurmain-footer-rights {
     font-size: 22px;
   }
 
