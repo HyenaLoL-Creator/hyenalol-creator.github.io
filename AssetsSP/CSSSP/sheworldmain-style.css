@@ -95,7 +95,54 @@ h1 {
   align-items: center;
   border-radius: 10px;
   margin-top: 20px;
-  margin-left: 40px;
+}
+
+/*corner-kirra-img*/
+.corner-kirra-image {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  display: block;
+}
+
+/*corner-kirra-image img*/
+.corner-kirra-image img {
+  width: 85px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/*corner-kirra-image img:hover*/
+.corner-kirra-image img:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
+}
+
+/*corner-kirra-image tooltip text*/
+.corner-kirra-image::after {
+  content: attr(data-title);
+  position: absolute;
+  right: -5px;
+  bottom: -33px;
+  background: #11131a;
+  color: #ffa44f;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  transform: translateY(-6px);
+  box-shadow: 0 0 10px rgba(255, 200, 150, 0.25);
+}
+
+/*corner-kirra-image show tooltip on hover*/
+.corner-kirra-image:hover::after {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*small text font*/

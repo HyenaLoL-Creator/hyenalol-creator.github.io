@@ -67,26 +67,6 @@ h1 {
   text-decoration: underline;
 }
 
-/*container img*/
-.systemshe-img-container {
-  text-align: center;
-  margin: 12px 0;
-}
-
-/*img*/
-.systemshe-img-container img {
-  width: 80%;
-  display: inline-block;
-  border-radius: 10px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-/*hover of img*/
-.systemshe-img-container img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 18px rgba(0,0,0,0.6);
-}
-
 /*shefurico-img container*/
 .shefurico-img-container {
   width: 100%;
@@ -97,52 +77,16 @@ h1 {
   margin-top: 20px;
 }
 
-/*corner-kirra-img*/
-.corner-kirra-image {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 999;
-  display: block;
+/*shefur-kirra-img container*/
+.shefur-kirra-img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-/*corner-kirra-image img*/
-.corner-kirra-image img {
-  width: 85px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-/*corner-kirra-image img:hover*/
-.corner-kirra-image img:hover {
-  transform: scale(1.1);
-  opacity: 0.85;
-}
-
-/*corner-kirra-image tooltip text*/
-.corner-kirra-image::after {
-  content: attr(data-title);
-  position: absolute;
-  right: -5px;
-  bottom: -33px;
-  background: #11131a;
-  color: #ffa44f;
-  padding: 6px 10px;
-  border-radius: 6px;
-  font-size: 14px;
-  opacity: 0;
-  pointer-events: none;
-  white-space: nowrap;
-  transition: opacity 0.25s ease, transform 0.25s ease;
-  transform: translateY(-6px);
-  box-shadow: 0 0 10px rgba(255, 200, 150, 0.25);
-}
-
-/*corner-kirra-image show tooltip on hover*/
-.corner-kirra-image:hover::after {
-  opacity: 1;
-  transform: translateY(0);
+/*simple space*/
+.simple-space {
+  height: 30px;
 }
 
 /*small text font*/
@@ -168,18 +112,6 @@ nav {
 
 /*a of navigation*/
 nav a {
-  margin: 0 12px;
-  color: #ffa44f;
-  font-weight: bold;
-}
-
-/*second navigation*/
-.second-nav {
-  margin-bottom: 24px;
-}
-
-/*a of second navigation*/
-.second-nav a {
   margin: 0 12px;
   color: #ffa44f;
   font-weight: bold;
@@ -219,7 +151,7 @@ nav a {
 }
 
 /*footer rights*/
-.systemshe-footer-rights {
+.shefurkirra-footer-rights {
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
@@ -251,7 +183,7 @@ nav a {
     padding: 28px;
   }
 
-  .systemshe-footer-rights {
+  .shefurkirra-footer-rights {
     font-size: 22px;
   }
 

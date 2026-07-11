@@ -67,26 +67,6 @@ h1 {
   text-decoration: underline;
 }
 
-/*container img*/
-.systemshe-img-container {
-  text-align: center;
-  margin: 12px 0;
-}
-
-/*img*/
-.systemshe-img-container img {
-  width: 80%;
-  display: inline-block;
-  border-radius: 10px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-/*hover of img*/
-.systemshe-img-container img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 18px rgba(0,0,0,0.6);
-}
-
 /*shefurico-img container*/
 .shefurico-img-container {
   width: 100%;
@@ -96,6 +76,7 @@ h1 {
   border-radius: 10px;
   margin-top: 20px;
 }
+
 
 /*corner-kirra-img*/
 .corner-kirra-image {
@@ -173,18 +154,6 @@ nav a {
   font-weight: bold;
 }
 
-/*second navigation*/
-.second-nav {
-  margin-bottom: 24px;
-}
-
-/*a of second navigation*/
-.second-nav a {
-  margin: 0 12px;
-  color: #ffa44f;
-  font-weight: bold;
-}
-
 /*scroll button*/
 .scroll-btn {
   position: fixed;
@@ -219,7 +188,7 @@ nav a {
 }
 
 /*footer rights*/
-.systemshe-footer-rights {
+.sheworldhungry-footer-rights {
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
@@ -251,7 +220,7 @@ nav a {
     padding: 28px;
   }
 
-  .systemshe-footer-rights {
+  .sheworldhungry-footer-rights {
     font-size: 22px;
   }
 
