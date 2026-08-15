@@ -67,46 +67,6 @@ h1 {
   text-decoration: underline;
 }
 
-/*container img*/
-.shefur-img-container {
-  text-align: center;
-  margin: 12px 0;
-}
-
-/*img*/
-.shefur-img-container img {
-  width: 55%;
-  display: inline-block;
-  border-radius: 10px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.shefur-img-container img[src*=SheFurC8]{
-  width: 95%;
-}
-
-.shefur-img-container img[src*=SheFurC3]{
-  width: 48%;
-}
-
-.shefur-img-container img[src*=SheFurC10]{
-  width: 66%;
-}
-
-.shefur-img-container img[src*=SheFurC7]{
-  width: 45%;
-}
-
-.shefur-img-container img[src*=SheFurC11]{
-  width: 45%;
-}
-
-/*hover of img*/
-.shefur-img-container img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 18px rgba(0,0,0,0.6);
-}
-
 /*shefurico-img container*/
 .shefurico-img-container {
   width: 100%;
@@ -116,6 +76,7 @@ h1 {
   border-radius: 10px;
   margin-top: 20px;
 }
+
 
 /*corner-kirra-img*/
 .corner-kirra-image {
@@ -227,7 +188,7 @@ nav a {
 }
 
 /*footer rights*/
-.shefurcastesstages-footer-rights {
+.sheworldourhunger-footer-rights {
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
@@ -303,7 +264,7 @@ body.ru .lang-ru { display: inline; }
     padding: 28px;
   }
 
-  .shefurcastesstages-footer-rights {
+  .sheworldourhunger-footer-rights {
     font-size: 22px;
   }
 

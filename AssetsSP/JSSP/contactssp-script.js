@@ -23,3 +23,12 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+
+/*Languages*/
+function setLang(lang) {
+  if (lang === 'ru') {
+    document.body.classList.add('ru');
+  } else {
+    document.body.classList.remove('ru');
+  }
+}

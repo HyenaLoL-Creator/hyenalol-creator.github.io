@@ -25,14 +25,21 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="sheworldweaviecaress-footer-by">
       <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="sheworldweaviecaress-nav-home">
       <nav>
-        <a href="sheworldmain.html">Back to SheWorld</a>
-        <a href="index.html">Home</a>
+        <a href="sheworldmain.html"><span class="lang-en">Back to SheWorld</span>
+        <span class="lang-ru">Обратно к ШеВорлд</span></a>
+        <a href="index.html"><span class="lang-en">Home</span>
+        <span class="lang-ru">Домашняя</span></a>
       </nav>
     </section>
 
@@ -43,39 +50,54 @@
     </section>
 
     <section id="sheworldweaviecaress-intro" class="content-block">
-      <h1>SheWorld - Weavie Caress -</h1>
-      <h2>Content -</h2>
+      <h1><span class="lang-en">SheWorld - Weavie Caress -</span>
+      <span class="lang-ru">ШеВорлд - Паутинковая Ласка -</span></h1>
+
+      <h2><span class="lang-en">Content -</span>
+      <span class="lang-ru">Контент -</span></h2>
       <ul>
-        <li>Weavie Caress - Main.</li>
-        <li>Weavie Caress - Flora.</li>
-        <li>Weavie Caress - Fauna.</li>
-        <li>Weavie Caress - Aphelion Winter.</li>
+        <li><span class="lang-en">Weavie Caress - Main.</span>
+        <span class="lang-ru">Паутинковая Ласка - Главное.</span></li>
+        <li><span class="lang-en">Weavie Caress - Flora.</span>
+        <span class="lang-ru">Паутинковая Ласка - Флора.</span></li>
+        <li><span class="lang-en">Weavie Caress - Fauna.</span>
+        <span class="lang-ru">Паутинковая Ласка - Фауна.</span></li>
+        <li><span class="lang-en">Weavie Caress - Aphelion Winter.</span>
+        <span class="lang-ru">Паутинковая Ласка - Зима Афелий.</span></li>
       </ul>
     </section>
 
     <section id="sheworldweaviecaress-page-nav">
       <nav>
-        <a href="#weaviecaressmain">Main</a>
-        <a href="#weaviecaressflora">Flora</a>
-        <a href="#weaviecaressfauna">Fauna</a>
-        <a href="#weaviecaresswinter">Aphelion Winter</a>
+        <a href="#weaviecaressmain"><span class="lang-en">Main</span>
+        <span class="lang-ru">Главное</span></a>
+        <a href="#weaviecaressflora"><span class="lang-en">Flora</span>
+        <span class="lang-ru">Флора</span></a>
+        <a href="#weaviecaressfauna"><span class="lang-en">Fauna</span>
+        <span class="lang-ru">Фауна</span></a>
+        <a href="#weaviecaresswinter"><span class="lang-en">Aphelion Winter</span>
+        <span class="lang-ru">Зима Афелий</span></a>
       </nav>
     </section>
 
     <section id="weaviecaressmain" class="content-block">
-      <h1>Weavie Caress - Main -</h1>
+      <h1><span class="lang-en">Weavie Caress - Main -</span>
+      <span class="lang-ru">Паутинковая Ласка - Главное -</span></h1>
     </section>
 
     <section id="weaviecaressflora" class="content-block">
-      <h1>Weavice Caress - Flora -</h1>
+      <h1><span class="lang-en">Weavice Caress - Flora -</span>
+      <span class="lang-ru">Паутинковая Ласка - Флора -</span></h1>
     </section>
 
     <section id="weaviecaressfauna" class="content-block">
-      <h1>Weavie Caress - Fauna -</h1>
+      <h1><span class="lang-en">Weavie Caress - Fauna -</span>
+      <span class="lang-ru">Паутинковая Ласка - Фауна -</span></h1>
     </section>
 
     <section id="weaviecaresswinter" class="content-block">
-      <h1>Weavie Caress - Aphelion Winter -</h1>
+      <h1><span class="lang-en">Weavie Caress - Aphelion Winter -</span>
+      <span class="lang-ru">Паутинковая Ласка - Зима Афелий -</span></h1>
     </section>
 
   </main>
@@ -89,6 +111,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/sheworldweaviecaress-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

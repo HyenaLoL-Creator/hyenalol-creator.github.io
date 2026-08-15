@@ -25,14 +25,21 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="sheworldnowicy-footer-by">
       <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="sheworldnowicy-nav-home">
       <nav>
-        <a href="sheworldmain.html">Back to SheWorld</a>
-        <a href="index.html">Home</a>
+        <a href="sheworldmain.html"><span class="lang-en">Back to SheWorld</span>
+        <span class="lang-ru">Обратно к ШеВорлд</span></a>
+        <a href="index.html"><span class="lang-en">Home</span>
+        <span class="lang-ru">Домашняя</span></a>
       </nav>
     </section>
 
@@ -43,39 +50,54 @@
     </section>
 
     <section id="sheworldnowicy-intro" class="content-block">
-      <h1>SheWorld - Nowicy -</h1>
-      <h2>Content -</h2>
+      <h1><span class="lang-en">SheWorld - Nowicy -</span>
+      <span class="lang-ru">ШеВорлд - Новайс -</span></h1>
+
+      <h2><span class="lang-en">Content -</span>
+      <span class="lang-ru">Контент -</span></h2>
       <ul>
-        <li>Nowicy - Main.</li>
-        <li>Nowicy - Flora.</li>
-        <li>Nowicy - Fauna.</li>
-        <li>Nowicy - Aphelion Winter.</li>
+        <li><span class="lang-en">Nowicy - Main.</span>
+        <span class="lang-ru">Новайс - Главное.</span></li>
+        <li><span class="lang-en">Nowicy - Flora.</span>
+        <span class="lang-ru">Новайс - Флора.</span></li>
+        <li><span class="lang-en">Nowicy - Fauna.</span>
+        <span class="lang-ru">Новайс - Фауна.</span></li>
+        <li><span class="lang-en">Nowicy - Aphelion Winter.</span>
+        <span class="lang-ru">Новайс - Зима Афелий.</span></li>
       </ul>
     </section>
 
     <section id="sheworldnowicy-page-nav">
       <nav>
-        <a href="#nowicymain">Main</a>
-        <a href="#nowicyflora">Flora</a>
-        <a href="#nowicyfauna">Fauna</a>
-        <a href="#nowicywinter">Aphelion Winter</a>
+        <a href="#nowicymain"><span class="lang-en">Main</span>
+        <span class="lang-ru">Главное</span></a>
+        <a href="#nowicyflora"><span class="lang-en">Flora</span>
+        <span class="lang-ru">Флора</span></a>
+        <a href="#nowicyfauna"><span class="lang-en">Fauna</span>
+        <span class="lang-ru">Фауна</span></a>
+        <a href="#nowicywinter"><span class="lang-en">Aphelion Winter</span>
+        <span class="lang-ru">Зима Афелий</span></a>
       </nav>
     </section>
 
     <section id="nowicymain" class="content-block">
-      <h1>Nowicy - Main -</h1>
+      <h1><span class="lang-en">Nowicy - Main -</span>
+      <span class="lang-ru">Новайс - Главное -</span></h1>
     </section>
 
     <section id="nowicyflora" class="content-block">
-      <h1>Nowicy - Flora -</h1>
+      <h1><span class="lang-en">Nowicy - Flora -</span>
+      <span class="lang-ru">Новайс - Флора -</span></h1>
     </section>
 
     <section id="nowicyfauna" class="content-block">
-      <h1>Nowicy - Fauna -</h1>
+      <h1><span class="lang-en">Nowicy - Fauna -</span>
+      <span class="lang-ru">Новайс - Фауна -</span></h1>
     </section>
 
     <section id="nowicywinter" class="content-block">
-      <h1>Nowicy - Aphelion Winter -</h1>
+      <h1><span class="lang-en">Nowicy - Aphelion Winter -</span>
+      <span class="lang-ru">Новайс - Зима Афелий -</span></h1>
     </section>
 
   </main>
@@ -89,6 +111,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/sheworldnowicy-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

@@ -25,14 +25,21 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="sheworldzestiescaldsy-footer-by">
       <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="sheworldzestiescaldsy-nav-home">
       <nav>
-        <a href="sheworldmain.html">Back to SheWorld</a>
-        <a href="index.html">Home</a>
+        <a href="sheworldmain.html"><span class="lang-en">Back to SheWorld</span>
+        <span class="lang-ru">Обратно к ШеВорлд</span></a>
+        <a href="index.html">Домашняя<span class="lang-en">Home</span>
+        <span class="lang-ru"></span></a>
       </nav>
     </section>
 
@@ -43,39 +50,54 @@
     </section>
 
     <section id="sheworldzestiescaldsy-intro" class="content-block">
-      <h1>SheWorld - Zestie Scaldsy -</h1>
-      <h2>Content -</h2>
+      <h1><span class="lang-en">SheWorld - Zestie Scaldsy -</span>
+      <span class="lang-ru">ШеВорлд - Кислая Жгёнка -</span></h1>
+      
+      <h2><span class="lang-en">Content -</span>
+      <span class="lang-ru">Контент -</span></h2>
       <ul>
-        <li>Zestie Scaldsy - Main.</li>
-        <li>Zestie Scaldsy - Flora.</li>
-        <li>Zestie Scaldsy - Fauna.</li>
-        <li>Zestie Scaldsy - Aphelion Winter.</li>
+        <li><span class="lang-en">Zestie Scaldsy - Main.</span>
+        <span class="lang-ru">Кислая Жгёнка - Главное.</span></li>
+        <li><span class="lang-en">Zestie Scaldsy - Flora.</span>
+        <span class="lang-ru">Кислая Жгёнка - Флора.</span></li>
+        <li><span class="lang-en">Zestie Scaldsy - Fauna.</span>
+        <span class="lang-ru">Кислая Жгёнка - Фауна.</span></li>
+        <li><span class="lang-en">Zestie Scaldsy - Aphelion Winter.</span>
+        <span class="lang-ru">Кислая Жгёнка - Зима Афелий.</span></li>
       </ul>
     </section>
 
     <section id="sheworldzestiescaldsy-page-nav">
       <nav>
-        <a href="#zestiescaldsymain">Main</a>
-        <a href="#zestiescaldsyflora">Flora</a>
-        <a href="#zestiescaldsyfauna">Fauna</a>
-        <a href="#zestiescaldsywinter">Aphelion Winter</a>
+        <a href="#zestiescaldsymain"><span class="lang-en">Main</span>
+        <span class="lang-ru">Главное</span></a>
+        <a href="#zestiescaldsyflora"><span class="lang-en">Flora</span>
+        <span class="lang-ru">Флора</span></a>
+        <a href="#zestiescaldsyfauna"><span class="lang-en">Fauna</span>
+        <span class="lang-ru">Фауна</span></a>
+        <a href="#zestiescaldsywinter"><span class="lang-en">Aphelion Winter</span>
+        <span class="lang-ru">Зима Афелий</span></a>
       </nav>
     </section>
 
     <section id="zestiescaldsymain" class="content-block">
-      <h1>Zestie Scaldsy - Main -</h1>
+      <h1><span class="lang-en">Zestie Scaldsy - Main -</span>
+      <span class="lang-ru">Кислая Жгёнка - Главное -</span></h1>
     </section>
 
     <section id="zestiescaldsyflora" class="content-block">
-      <h1>Zestie Scaldsy - Flora -</h1>
+      <h1><span class="lang-en">Zestie Scaldsy - Flora -</span>
+      <span class="lang-ru">Кислая Жгёнка - Флора -</span></h1>
     </section>
 
     <section id="zestiescaldsyfauna" class="content-block">
-      <h1>Zestie Scaldsy - Fauna -</h1>
+      <h1><span class="lang-en">Zestie Scaldsy - Fauna -</span>
+      <span class="lang-ru">Кислая Жгёнка - Фауна -</span></h1>
     </section>
 
     <section id="zestiescaldsywinter" class="content-block">
-      <h1>Zestie Scaldsy - Aphelion Winter -</h1>
+      <h1><span class="lang-en">Zestie Scaldsy - Aphelion Winter -</span>
+      <span class="lang-ru">Кислая Жгёнка - Зима Афелий -</span></h1>
     </section>
 
   </main>
@@ -89,6 +111,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/sheworldzestiescaldsy-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

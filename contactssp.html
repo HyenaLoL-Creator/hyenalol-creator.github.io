@@ -26,13 +26,19 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="contactssp-footer-by">
     <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="contactssp-nav-home">
       <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html"><span class="lang-en">Home</span>
+        <span class="lang-ru">Домашняя</span></a>
       </nav>
     </section>
 
@@ -44,18 +50,23 @@
 
 
     <section id="contactssp-main" class="content-block">
-      <h2>My Contacts -</h2>
+      <h2><span class="lang-en">My Contacts -</span>
+      <span class="lang-ru">Мой Контакты -</span></h2>
         <ul>
           <li><a href="https://www.deviantart.com/hyenalol" target="_blank" rel="noopener noreferrer">
-          My DeviantArt for gallery & arts.
+          <span class="lang-en">My DeviantArt for gallery & arts.</span>
+          <span class="lang-ru">Мой ДевиантАрт для галерей и артов.</span>
           </a></li>
           <li><a href="https://www.reddit.com/user/Dry_Call_6946" target="_blank" rel="noopener noreferrer">
-          My Reddit for prove.
+          <span class="lang-en">My Reddit for prove.</span>
+          <span class="lang-ru">Мой Реддит для подтверждения.</span>
           </a></li>
           <li><a href="https://www.reddit.com/r/SheFurrs" target="_blank" rel="noopener noreferrer">
-          My SubReddit for community & social.
+          <span class="lang-en">My SubReddit for community & social.</span>
+          <span class="lang-ru">Мой СабРеддит для сообщества и социальности.</span>
           </a></li>
-          <li>hyenaloldev@gmail.com - My Author's mail for serious requests.</li>
+          <li><span class="lang-en">hyenaloldev@gmail.com - My Author's mail for serious requests.</span>
+          <span class="lang-ru">hyenaloldev@gmail.com - Моя авторская почта для серьёзных запросов.</span></li>
         </ul>
     </section>
 
@@ -70,6 +81,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/contactssp-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

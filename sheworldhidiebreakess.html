@@ -25,14 +25,21 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="sheworldhidiebreakess-footer-by">
       <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="sheworldhidiebreakess-nav-home">
       <nav>
-        <a href="sheworldmain.html">Back to SheWorld</a>
-        <a href="index.html">Home</a>
+        <a href="sheworldmain.html"><span class="lang-en">Back to SheWorld</span>
+        <span class="lang-ru">Обратно к ШеВорлд</span></a>
+        <a href="index.html"><span class="lang-en">Home</span>
+        <span class="lang-ru">Домашняя</span></a>
       </nav>
     </section>
 
@@ -43,39 +50,54 @@
     </section>
 
     <section id="sheworldhidiebreakess-intro" class="content-block">
-      <h1>SheWorld - Hidie Breakess -</h1>
-      <h2>Content -</h2>
+      <h1><span class="lang-en">SheWorld - Hidie Breakess -</span>
+      <span class="lang-ru">ШеВорлд - Прятная Ноголомка -</span></h1>
+
+      <h2><span class="lang-en">Content -</span>
+      <span class="lang-ru">Контент -</span></h2>
       <ul>
-        <li>Hidie Breakess - Main.</li>
-        <li>Hidie Breakess - Flora.</li>
-        <li>Hidie Breakess - Fauna.</li>
-        <li>Hidie Breakess - Aphelion Winter.</li>
+        <li><span class="lang-en">Hidie Breakess - Main.</span>
+        <span class="lang-ru">Прятная Ноголомка - Главное.</span></li>
+        <li><span class="lang-en">Hidie Breakess - Flora.</span>
+        <span class="lang-ru">Прятная Ноголомка - Флора.</span></li>
+        <li><span class="lang-en">Hidie Breakess - Fauna.</span>
+        <span class="lang-ru">Прятная Ноголомка - Фауна.</span></li>
+        <li><span class="lang-en">Hidie Breakess - Aphelion Winter.</span>
+        <span class="lang-ru">Прятная Ноголомка - Зима Афелий.</span></li>
       </ul>
     </section>
 
     <section id="sheworldhidiebreakess-page-nav">
       <nav>
-        <a href="#hidiebreakessmain">Main</a>
-        <a href="#hidiebreakessflora">Flora</a>
-        <a href="#hidiebreakessfauna">Fauna</a>
-        <a href="#hidiebreakesswinter">Aphelion Winter</a>
+        <a href="#hidiebreakessmain"><span class="lang-en">Main</span>
+        <span class="lang-ru">Главное</span></a>
+        <a href="#hidiebreakessflora"><span class="lang-en">Flora</span>
+        <span class="lang-ru">Флора</span></a>
+        <a href="#hidiebreakessfauna"><span class="lang-en">Fauna</span>
+        <span class="lang-ru">Фауна</span></a>
+        <a href="#hidiebreakesswinter"><span class="lang-en">Aphelion Winter</span>
+        <span class="lang-ru">Зима Афелий</span></a>
       </nav>
     </section>
 
     <section id="hidiebreakessmain" class="content-block">
-      <h1>Hidie Breakess - Main -</h1>
+      <h1><span class="lang-en">Hidie Breakess - Main -</span>
+      <span class="lang-ru">Прятная Ноголомка - Главное -</span></h1>
     </section>
 
     <section id="hidiebreakessflora" class="content-block">
-      <h1>Hidie Breakess - Flora -</h1>
+      <h1><span class="lang-en">Hidie Breakess - Flora -</span>
+      <span class="lang-ru">Прятная Ноголомка - Флора -</span></h1>
     </section>
 
     <section id="hidiebreakessfauna" class="content-block">
-      <h1>Hidie Breakess - Fauna -</h1>
+      <h1><span class="lang-en">Hidie Breakess - Fauna -</span>
+      <span class="lang-ru">Прятная Ноголомка - Фауна -</span></h1>
     </section>
 
     <section id="hidiebreakesswinter" class="content-block">
-      <h1>Hidie Breakess - Aphelion Winter -</h1>
+      <h1><span class="lang-en">Hidie Breakess - Aphelion Winter -</span>
+      <span class="lang-ru">Прятная Ноголомка - Зима Афелий -</span></h1>
     </section>
 
   </main>
@@ -89,6 +111,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/sheworldhidiebreakess-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

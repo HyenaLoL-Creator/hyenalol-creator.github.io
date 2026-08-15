@@ -25,14 +25,21 @@
       <img src="AssetsSP/IMGSP/SheFur-KiRra-PageIco.png" alt="Corner KiRra Icon">
     </a>
 
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+
     <section id="sheworldslurrie-footer-by">
       <footer class="footer-by">By HyenaLoL</footer>
     </section>
 
     <section id="sheworldslurrie-nav-home">
       <nav>
-        <a href="sheworldmain.html">Back to SheWorld</a>
-        <a href="index.html">Home</a>
+        <a href="sheworldmain.html"><span class="lang-en">Back to SheWorld</span>
+        <span class="lang-ru">Обратно к ШеВорлд</span></a>
+        <a href="index.html"><span class="lang-en">Home</span>
+        <span class="lang-ru">Домашняя</span></a>
       </nav>
     </section>
 
@@ -43,39 +50,54 @@
     </section>
 
     <section id="sheworldslurrie-intro" class="content-block">
-      <h1>SheWorld - Slurrie -</h1>
-      <h2>Content -</h2>
+      <h1><span class="lang-en">SheWorld - Slurrie -</span>
+      <span class="lang-ru">ШеВорлд - Жижа -</span></h1>
+
+      <h2><span class="lang-en">Content -</span>
+      <span class="lang-ru">Контент -</span></h2>
       <ul>
-        <li>Slurrie - Main.</li>
-        <li>Slurrie - Flora.</li>
-        <li>Slurrie - Fauna.</li>
-        <li>Slurrie - Aphelion Winter.</li>
+        <li><span class="lang-en">Slurrie - Main.</span>
+        <span class="lang-ru">Жижа - Главное.</span></li>
+        <li><span class="lang-en">Slurrie - Flora.</span>
+        <span class="lang-ru">Жижа - Флора.</span></li>
+        <li><span class="lang-en">Slurrie - Fauna.</span>
+        <span class="lang-ru">Жижа - Фауна.</span></li>
+        <li><span class="lang-en">Slurrie - Aphelion Winter.</span>
+        <span class="lang-ru">Жижа - Зима Афелий.</span></li>
       </ul>
     </section>
 
     <section id="sheworldslurrie-page-nav">
       <nav>
-        <a href="#slurriemain">Main</a>
-        <a href="#slurrieflora">Flora</a>
-        <a href="#slurriefauna">Fauna</a>
-        <a href="#slurriewinter">Aphelion Winter</a>
+        <a href="#slurriemain"><span class="lang-en">Main</span>
+        <span class="lang-ru">Главное</span></a>
+        <a href="#slurrieflora"><span class="lang-en">Flora</span>
+        <span class="lang-ru">Флора</span></a>
+        <a href="#slurriefauna"><span class="lang-en">Fauna</span>
+        <span class="lang-ru">Фауна</span></a>
+        <a href="#slurriewinter"><span class="lang-en">Aphelion Winter</span>
+        <span class="lang-ru">Зима Афелий</span></a>
       </nav>
     </section>
 
     <section id="slurriemain" class="content-block">
-      <h1>Slurrie - Main -</h1>
+      <h1><span class="lang-en">Slurrie - Main -</span>
+      <span class="lang-ru">Жижа - Главное -</span></h1>
     </section>
 
     <section id="slurrieflora" class="content-block">
-      <h1>Slurrie - Flora -</h1>
+      <h1><span class="lang-en">Slurrie - Flora -</span>
+      <span class="lang-ru">Жижа - Флора -</span></h1>
     </section>
 
     <section id="slurriefauna" class="content-block">
-      <h1>Slurrie - Fauna -</h1>
+      <h1><span class="lang-en">Slurrie - Fauna -</span>
+      <span class="lang-ru">Жижа - Фауна -</span></h1>
     </section>
 
     <section id="slurriewinter" class="content-block">
-      <h1>Slurrie - Aphelion Winter -</h1>
+      <h1><span class="lang-en">Slurrie - Aphelion Winter -</span>
+      <span class="lang-ru">Жижа - Зима Афелий -</span></h1>
     </section>
 
   </main>
@@ -89,6 +111,16 @@
   </div>
 
   <script src="AssetsSP/JSSP/sheworldslurrie-script.js"></script>
+
+  <script>
+    function setLang(lang) {
+      if (lang === 'ru') {
+        document.body.classList.add('ru');
+      } else {
+      document.body.classList.remove('ru');
+      }
+    }
+  </script>
 
 </body>
 </html>

@@ -208,6 +208,50 @@ nav {
   user-select: none;
 }
 
+/*Languages*/
+.lang-en { display: inline; }
+.lang-ru { display: none; }
+
+body.ru .lang-en { display: none; }
+body.ru .lang-ru { display: inline; }
+
+/*LA buttons*/
+.lang-switch {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 998;
+}
+
+/*LA buttons style*/
+.lang-switch button {
+  background: #1a1d25;
+  color: #ffa44f;
+  border: 1px solid #ffa44f;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+/*hover of LA buttons*/
+.lang-switch button:hover {
+  background: #ffa44f;
+  color: #11131a;
+  transform: translateY(-1px);
+  box-shadow: 0 0 14px rgba(255, 164, 79, 0.6);
+}
+
+/*LA button activation*/
+.lang-switch button.active {
+  background: #ffa44f;
+  color: #11131a;
+}
+
 /*4k media*/
 @media (min-width: 2560px) {
 
