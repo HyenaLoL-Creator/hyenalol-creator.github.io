@@ -1,12 +1,12 @@
 
 {
-  "name": "SheFurrs Project",
+  "name": "SheFur Project - Pages",
   "short_name": "SheFurrs",
   "start_url": "/",
   "display": "standalone",
   "description": "Thx!",
-  "background_color": "#814e00",
-  "theme_color": "#814e00",
+  "background_color": "#ffa44f",
+  "theme_color": "#ffa44f",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
