@@ -28,6 +28,14 @@ h1 {
   text-align: center;
 }
 
+/*text+*/
+h6 {
+  color: #ffa44f;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  text-shadow: 0 0 8px rgba(255, 200, 150, 0.4);
+}
+
 /*content block style*/
 .content-block {
   background: #11131a;
