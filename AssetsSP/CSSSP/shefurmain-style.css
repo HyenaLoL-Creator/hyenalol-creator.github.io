@@ -75,7 +75,6 @@ h1 {
 
 /*img*/
 .shefur-img-container img {
-  width: 55%;
   display: inline-block;
   border-radius: 10px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -83,6 +82,10 @@ h1 {
 
 .shefur-img-container img[src*=SheFurC2]{
   width: 50%;
+}
+
+.shefur-img-container img[src*=C1]{
+  width: 95%;
 }
 
 .shefur-img-container img[src*=OtherC2]{
@@ -115,10 +118,6 @@ h1 {
 
 .shefur-img-container img[src*=OtherC28]{
   width: 40%;
-}
-
-.shefur-img-container img[src*=OtherC1]{
-  width: 95%;
 }
 
 .shefur-img-container img[src*=OtherC3]{
