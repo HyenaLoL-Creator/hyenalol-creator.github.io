@@ -86,19 +86,19 @@ h1 {
 }
 
 .shefur-img-container img[src*=OtherC2]{
-  width: 32%;
-}
-
-.shefur-img-container img[src*=OtherC12]{
-  width: 60%;
-}
-
-.shefur-img-container img[src*=OtherC14]{
   width: 40%;
 }
 
 .shefur-img-container img[src*=OtherC21]{
-  width: 32%;
+  width: 40%;
+}
+
+.shefur-img-container img[src*=SheFur-Symbionts]{
+  width: 40%;
+}
+
+.shefur-img-container img[src*=SheFur-MouthPoresSpitteringGland]{
+  width: 60%;
 }
 
 .shefur-img-container img[src*=OtherC22]{
@@ -114,100 +114,79 @@ h1 {
 }
 
 .shefur-img-container img[src*=OtherC28]{
-  width: 42%;
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img {
-  width: 55%;
-  filter: blur(18px);
-  cursor: pointer;
-  transition: filter 0.25s ease, transform 0.25s ease;
-}
-
-.shefur-img-container img.sixteen-img.age-ok {
-  filter: none;
-  cursor: default;
-}
-
-.shefur-img-container img.sixteen-img:hover {
-  transform: scale(1.02);
-}
-
-.shefur-img-container img.sixteen-img.age-ok:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 18px rgba(0,0,0,0.6);
-}
-
-.shefur-img-container img.sixteen-img[src*=OtherC1]{
+.shefur-img-container img[src*=OtherC1]{
   width: 95%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC3]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC3]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC4]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC4]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC5]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC5]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC6]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC6]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC7]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC7]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC8]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC8]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC9]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC9]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC10]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC10]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC11]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC11]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC13]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC13]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC15]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC15]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC16]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC16]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC17]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC17]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC18]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC18]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC19]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC19]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC20]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC20]{
+  width: 40%;
 }
 
-.shefur-img-container img.sixteen-img[src*=OtherC25]{
-  width: 32%;
+.shefur-img-container img[src*=OtherC25]{
+  width: 40%;
 }
 
 /*hover of img*/
