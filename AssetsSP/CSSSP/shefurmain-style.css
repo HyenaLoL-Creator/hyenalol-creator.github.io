@@ -97,6 +97,26 @@ h1 {
   width: 40%;
 }
 
+.shefur-img-container img[src*=OtherC21]{
+  width: 32%;
+}
+
+.shefur-img-container img[src*=OtherC22]{
+  width: 40%;
+}
+
+.shefur-img-container img[src*=OtherC27]{
+  width: 40%;
+}
+
+.shefur-img-container img[src*=OtherC26]{
+  width: 40%;
+}
+
+.shefur-img-container img[src*=OtherC28]{
+  width: 42%;
+}
+
 .shefur-img-container img.sixteen-img {
   width: 55%;
   filter: blur(18px);
@@ -183,6 +203,10 @@ h1 {
 }
 
 .shefur-img-container img.sixteen-img[src*=OtherC20]{
+  width: 32%;
+}
+
+.shefur-img-container img.sixteen-img[src*=OtherC25]{
   width: 32%;
 }
 
